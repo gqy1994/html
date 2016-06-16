@@ -1,0 +1,394 @@
+*{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration:none;
+}
+a:hover{
+	color:red;
+}
+ul li,ol li{
+	list-style:none;
+	float:left;
+}
+body{
+	color:#333;
+	font:12px/1.5 Tahoma, Arial, Helvetica, 'Microsoft YaHei', sans-serif;
+}
+/*-----------活动图----------------*/
+.bg{
+	width:100%;
+	height:450px;
+	overflow:hidden;
+	position:relative;
+}
+.bg .bg-content{
+	height: 450px;
+	background: url(../img/hot.jpg) no-repeat center;
+}
+/*-----------活动图下的导航----------------*/
+.hot-nav{
+	width:100%;
+	height:64px;
+	background:#fff;
+	position:relative;
+}
+.nav-content{
+	width:1200px;
+	margin:0 auto;
+	height:53px;
+}
+.nav-catalog{
+	float:right;
+	margin-top:11px;
+	margin-right:50px;
+}
+.nav-catalog h3{
+	margin:10px 10px 0 0;
+	float:left;
+}
+.nav-catalog dl.select{
+	float:right;
+	position:relative;
+}
+.select dt{
+	position:relative;
+	width:160px;
+	height:40px;
+	line-height:40px;
+	border:1px solid #333;
+	border-radius:2px;
+	font-size:14px;
+	cursor:pointer;
+}
+.select dt span{
+	width:102px;
+	height:40px;
+	padding:0 10px;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	line-height:40px;
+	font-size:14px;
+}
+.select dt i{
+	position:absolute;
+	right:0;
+	top:0;
+	padding:0 15px;
+	line-height:40px;
+	font-size:20px;
+	border-left:1px solid #333;
+}
+.select dd{
+	display:none;
+	position:absolute;
+	top:41px;
+	right:0;
+	width:160px;
+	background:#fff;
+	border:1px solid #333;
+	border-top:none;
+	z-index:10;
+}
+.select dd ul li{
+	width:140px;
+	height:40px;
+	line-height:40px;
+	cursor:pointer;
+	border-bottom:1px dotted #ddd;
+	padding:0 10px;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	overflow:hidden;
+}
+/*-----------口碑热卖----------------*/
+.hot-sale{
+	width:100%;
+	height:3256px;
+	background:#f2f2f2;
+}
+.hot-sale a:hover{
+	color:red;
+}
+.sale-content{
+	padding-top:40px;
+	width:1200px;
+	margin:0 auto;
+}
+.hot-title{
+	margin-bottom:16px;
+	padding-bottom:6px;
+	border-bottom:1px solid #ddd;
+}
+h2.title{
+	border-left:3px solid #ed4242;
+	color:#222;
+	font-size:20px;
+	padding-left:15px;
+	overflow:hidden;
+}
+ul.clear{
+	margin:16px 0 20px 0;
+	height:3040px;
+	width:100%;
+}
+.hot-img{
+	height:300px;
+	width:297px;
+	overflow:hidden;
+	margin:0 3px 4px 0;
+	position: relative;
+	background:#fff;
+	text-aign:center;
+}
+.hot-img .ico{
+	position: absolute;
+	top:10px;
+	right:10px;
+	z-index:3;
+	height:25px;
+	width:25px;
+}
+.hot-img .ico s{
+	display:block;
+	height:25px;
+	width:25px;
+	background:url(../img/ico.png) no-repeat -83px 0;
+}
+.hot-img i{
+	position:absolute;
+	transition:all .5s ease-out;
+	font-size:0;
+	z-index:2;
+	background:#000;
+}
+i.hot-top{
+	height:1px;
+	width:0;
+	left:0;
+	top:0;
+}
+i.hot-right{
+	height:0px;
+	width:1px;
+	right:0;
+	bottom:0;
+}
+i.hot-bottom{
+	height:1px;
+	width:0;
+	right:0;
+	bottom:0;
+}
+i.hot-left{
+	height:0px;
+	width:1px;
+	left:0;
+	top:0;
+}
+.hot-img:hover i.hot-top,.hot-img:hover i.hot-bottom{
+	width:297px;
+}
+.hot-img:hover i.hot-right,.hot-img:hover i.hot-left{
+	height:300px;
+}
+.hot-img a.img{
+	width:297px;
+	height:236px;
+	position:relative;
+	display:table-cell;
+	vertical-align:middle;
+	text-align:center;
+	transition: all .5s ease-out;
+}
+.hot-img a.img img{
+	height:236px;
+	width:236px;
+}
+.hot-img:hover a.img{
+	transform:scale(1.1);
+}
+dl.tit{
+	height:40px;
+	width:277px;
+	font-size:14px;
+	border-bottom:none;
+	line-height:1.6;
+	font-weight:normal;
+	overflow:hidden;
+	text-align:left;
+	padding:10px 0;
+	margin:0 10px;
+}
+dl.tit p{
+	height:20px;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+dl.tit dt{
+	width:75%;
+	height:40px;
+	float:left;
+}
+dl.tit dt a{
+	color:#777;
+}
+dl.tit dd{
+	text-align: right;
+	width:25%;
+	height:39px;
+	float:right;
+	margin-top:1px;
+}
+dd.fr img{
+	height:11px;
+	width:16px;
+	border:1px solid #ddd;
+}
+.tcdPageCode{
+	text-align:center;
+	border-top:1px solid #ddd;
+	padding-top:20px;
+	height:50px;
+	color:#f00;
+	cursor:default;
+}
+.tcdPageCode a{
+	display: inline-block;
+	color: #428bca;
+	display: inline-block;
+	height: 25px;
+	line-height: 25px;
+	padding: 0 10px;
+	border: 1px solid #ddd;
+	margin: 0 2px;
+	border-radius: 4px;
+	vertical-align: middle;
+}
+.tcdPageCode a:hover{
+	text-decoration: none;
+	border: 1px solid #428bca;
+}
+.tcdPageCode span.current{
+	display: inline-block;
+	height: 25px;
+	line-height: 25px;
+	padding: 0 10px;
+	margin: 0 2px;
+	color: #fff;
+	background-color: #428bca;
+	border: 1px solid #428bca;
+	border-radius: 4px;
+	vertical-align: middle;
+}
+.tcdPageCode span.disabled{
+	display: inline-block;
+	height: 25px;
+	line-height: 25px;
+	padding: 0 10px;
+	margin: 0 2px;
+	color: #bfbfbf;
+	background: #f2f2f2;
+	border: 1px solid #bfbfbf;
+	border-radius: 4px;
+	vertical-align: middle;
+}
+/*-----------------回到顶部------------------*/
+.toTop{
+	height:50px;
+	width:50px;
+	background:#888;
+	border-radius:10px;
+	position:fixed;
+	bottom:7%;
+	right:3%;
+	z-index:30;
+	cursor:pointer;
+	display:none;
+}
+.toTop s{
+	display:inline-block;
+	background:rgba(0,0,0,0) url(../img/login.png) no-repeat  -180px -60px;
+	height:29px;
+	width:29px;
+	margin:10px 0 0 11px;
+}
+.toTop:hover{
+	background:#ed4242;
+}
+/*-------------菜单吸顶---------------------*/
+.menu{
+	height:86px;
+	width:100%;
+	padding:12px 30px;
+	overflow: hidden;
+	position:fixed;
+	left:0;
+	top:0;
+	background:#fff;
+	filter:alpha(opacity:90);
+	opacity:0.9;
+	z-index:20;
+	/*display:none;*/
+}
+.menu div{
+	float:left;
+}
+.menu .logo{
+	height:83px;
+	width:85px;
+	margin-right:5px;
+}
+.menu form .search{
+	min-width:764px;
+	height:45px;
+	border:1px solid #ed4242;
+	margin-left:90px;
+	margin-top:15px;
+}
+.menu form .search input{
+	border:none;
+}
+.menu form .search #tex1{
+	width:712px;
+	height:45px;
+	float:left;
+}
+.menu form .search #sub1{
+	width:52px;
+	height:45px;
+	float:left;
+	background:#ed4242 url(../img/search.jpg) no-repeat center;
+	cursor:pointer;
+}
+.menu .shopcard{
+	float:left;
+	width:120px;
+	height:45px;
+	border-radius:3px;
+	background:#ed4242;
+	margin-left:15px;
+	margin-top:15px;
+	line-height:45px;
+	position:relative;
+}
+.menu .shopcard a{
+	color:#fff;
+}
+.menu .shopcard a:hover{
+	color:#fff;
+}
+.menu .shopcard a b{
+	font-size:12px;
+	font-weight:normal;
+	position:absolute;
+	left:12px;
+	top:-15px;
+	z-index:26;
+}
+
+
+

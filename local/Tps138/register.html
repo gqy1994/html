@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录 - 跨境电商-正品低价、品质保证、享受会员优惠政策，轻松愉快购物！</title>
+		<script src="js/jquery-1.12.4.min.js"></script>
+		
+		<script src="js/index.js"></script>
+		<script src="js/login.js"></script>
+		<script src="js/jquery.cookie.js"</script>
+		<script src="js/placeholder.js"></script>
+		<link rel="shortcut icon" href="img/tps.ico" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="iconfont/iconfont.css">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="stylesheet" type="text/css" href="css/login.css">	
+	</head>
+	<body >
+		<!--***********top*******************-->
+		<div class="top" id="top">
+			<!--ajax引入-->
+		</div>
+		<!--*************nav******************-->
+		<div class="nav" style="width:100%;">
+			<!--ajax引入-->
+		</div>
+		<!--***********login*******************-->
+		<div id="login" style="width:100%;overflow:hidden;background:#f5f5f5;">
+			<div class="login_content" style="width:1200px;margin:0 auto">
+				<h2>登录|顾客注册</h2>
+				<div class="content_left">
+					<div class="signin">
+						<form class="login_form">
+							<h4>登录</h4>
+							<input type="hidden" id="loadingTxt" value="处理中…" />
+							<div class="item-ifo">
+								<s class="youx"></s>
+								<input type="text" class="itxt" id="itxt1" name="loginName" tabindex="1" autocomplete="off" placeholder="邮箱/ID"/>
+								<span class="msg">
+									<img src="img/error.gif" style="display:none"/>
+								</span>
+								<p></p>
+							</div>
+							<div class="item-ifo">
+								<s class="suo"></s>
+								<input type="password" class="itxt" id="itxt2" name="pwdOriginal_login"  tabindex="1" autocomplete="off" placeholder="密码"/>
+								<span class="msg">
+									<img src="img/error.gif" style="display:none"/>
+								</span>
+								<p></p>
+								<!--<label style="display:block" class="result_msg"></label>-->
+							</div>
+							<div class="item-ifo">
+								<input type="button" class="btn-Login" name="login_submit" value="登录" tabindex="8" clstag="regist|keycount|personalreg|07" autocomplete="off"/>
+							</div>
+						</form>
+						<p>
+							<a style="color:#497fb1" href="javascript:;">重发激活邮件？</a>
+							<a style="color:#497fb1" href="javascript:;">忘记密码？</a>
+						</p>
+					</div>
+				</div>
+				<div class="content_right">
+					<div class="register">
+						<h4>顾客注册</h4>
+						<form class="register_form">
+							<div class="item-ifo">
+								<s class="youx"></s>
+								<input  type="text" id="itxt3" class="itxt" name="email" tabindex="1" autocomplete="off" placeholder="电子邮箱"/>
+								<span class="msg">
+									<img src="img/error.gif" style="display:none"/>
+								</span>
+								<p></p>
+								<!--<p class="red">请输入正确的邮箱地址</p>-->
+							</div>
+							<div class="item-ifo">
+								<s class="youx"></s>
+								<input type="text" class="itxt" id="itxt4" name="email_re" tabindex="1" autocomplete="off" placeholder="确认邮箱"/>
+								<span class="msg">
+									<img src="img/error.gif" style="display:none"/>
+								</span>
+								<p></p>
+							</div>
+							<div class="item-ifo">
+								<s class="suo"></s>
+								<input type="password" class="itxt" id="itxt5" name="pwdOriginal"  tabindex="1" autocomplete="off" placeholder="密码"/>
+								<span class="msg">
+									<img src="img/error.gif" style="display:none"/>
+								</span>
+								<p></p>
+							</div>
+							<div class="item-ifo">
+								<s class="suo"></s>
+								<input type="password" class="itxt" id="itxt6" name="pwdOriginal_re"  tabindex="1" autocomplete="off" placeholder="确认密码"/>
+								<span class="msg">
+									<img src="img/error.gif" style="display:none"/>
+								</span>
+								<p></p>
+							</div>
+							<div class="item-ifo modal_main">
+								<label>
+									<input style="margin-bottom:2px" checked="checked" type="checkbox" class="jdcheckbox" name="agree" autocomplete="off"/>我同意
+									<a href="javascript:;" id="protocol" style="color:#497fb1">《TPS用户注册协议》</a>
+								</label>
+								<span>
+									<!--<img src="img/error.gif"/>-->
+								</span>
+								<p></p>
+							</div>
+							<div class="item-ifo">
+								<input type="button" autocomplete="off" class="btn-register" name="register_submit" value="马上注册" tabindex="8" clstag="regist|keycount|personalreg|07">
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- **************底部********************* -->
+		<div class="footer" id="footer" style="width:100%;overflow:hidden">
+			<!--ajax引入-->
+		</div>
+	</body>
+</html>

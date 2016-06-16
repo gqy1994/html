@@ -1,0 +1,400 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	color:#f5f5f5;
+}
+/*-----------------nav---------------------------*/
+.nav{
+	height:42px;
+	width:100%;
+	background:#1e1e1e;
+	position:relative;
+}
+.nav .catalog{
+	float:left;
+	height:42px;
+	width:160px;
+	margin-left:30px;
+	background:#ed4242;
+	position:relative;
+}
+.nav .catalog h3{
+	font-size:14px;
+	height:42px;
+	color:#fff;
+	line-height:42px;
+	text-align:center;
+}
+.nav .catalog ul{
+	position:absolute;
+	top:42px;
+	left:0px;
+	width:160px;
+	background: rgba(255,255,255,.95);
+	display:none;
+	z-index:20;
+}
+.nav .catalog ul li{
+	clear:both;
+	height:42px;
+	padding-left:20px;
+	width:140px;
+	line-height:42px;
+	border-bottom:1px dotted #000;
+	transition: all .1s linear;
+}
+.nav .catalog ul li:hover{
+	width:130px;
+	transform:translateX(5px);
+	border-left:5px solid #ed4242;
+}
+.nav .catalog ul li a{
+	color:#333;
+}
+.nav .catalog ul li i.size{
+	height:8px;
+	width:8px;
+	float:right;
+	margin-right:15px;
+	display:none;
+}
+.nav .catalog #noborder{
+	border-bottom:none;
+}
+.nav .meau_bar ul li{
+	height:42px;
+	line-height:42px;
+}
+.nav .meau_bar ul li a{
+	padding:0 35px;
+	color:#fff;
+	font-size:14px;
+}
+.nav .meau_bar ul li a:hover{
+	background:#3f3f3f;
+	display:block;
+	height:42px;
+	line-height:42px;
+}
+.nav .muying1{
+	height:545px;
+	width:650px;
+	background: rgba(255,255,255,.95);
+	position:absolute;
+	left:190px;
+	top:42px;
+	padding:0 20px;
+	display:none;
+	z-index:50;
+}
+.nav .muying1 ol{
+	height:60px;
+	border-bottom:1px dotted #000;
+	padding-top:16px;
+}
+.nav .muying1 ol h4 a{
+	color:#333;
+	font-size:14px;
+}
+.nav .muying1 a:hover{
+	color:red;
+}
+.nav .tiyu1 a:hover{
+	color:red;
+}
+.nav .meizhuang1 a:hover{
+	color:red;
+}
+.nav .yingyang1 a:hover{
+	color:red;
+}
+.nav .shipin1 a:hover{
+	color:red;
+}
+.nav .zhongbiao1 a:hover{
+	color:red;
+}
+.nav .shuma1 a:hover{
+	color:red;
+}
+.nav .jiaju1 a:hover{
+	color:red;
+}
+.nav .muying1 ol h4{
+	margin-bottom:10px;
+}
+.nav .muying1 ol li a{
+	color:#333;
+	font-size:14px;
+	padding:0 8px;
+	border-right:1px solid #ccc;
+}
+.nav .muying1 ol li.no_left a{
+	padding-left:0;
+}
+.nav .meizhuang1{
+	height:469px;
+	width:650px;
+	background: rgba(255,255,255,.95);
+	position:absolute;
+	left:190px;
+	top:42px;
+	padding:0 20px;
+	display:none;
+	z-index:50;
+}
+.nav .meizhuang1 ol{
+	height:60px;
+	border-bottom:1px dotted #000;
+	padding-top:16px;
+}
+.nav .meizhuang1 ol h4 a{
+	color:#333;
+	font-size:14px;
+}
+
+.nav .meizhuang1 ol h4{
+	margin-bottom:10px;
+}
+.nav .meizhuang1 ol li a{
+	color:#333;
+	font-size:14px;
+	padding:0 8px;
+	border-right:1px solid #ccc;
+}
+.nav .meizhuang1 ol li.no_left a{
+	padding-left:0;
+}
+.nav .tiyu1{
+	height:105px;
+	width:650px;
+	background: rgba(255,255,255,.95);
+	position:absolute;
+	left:190px;
+	top:126px;
+	padding:0 20px;
+	display:none;
+	z-index:50;
+}
+.nav .tiyu1 ol{
+	height:60px;
+	border-bottom:1px dotted #000;
+	padding-top:16px;
+}
+.nav .tiyu1 ol h4 a{
+	color:#333;
+	font-size:14px;
+}
+.nav .tiyu1 ol h4{
+	margin-bottom:10px;
+}
+.nav .tiyu1 ol li a{
+	color:#333;
+	font-size:14px;
+	padding:0 8px;
+	border-right:1px solid #ccc;
+}
+.nav .tiyu1 ol li.no_left a{
+	padding-left:0;
+}
+.nav .yingyang1{
+	height:257px;
+	width:650px;
+	background: rgba(255,255,255,.95);
+	position:absolute;
+	left:190px;
+	top:42px;
+	padding:0 20px;
+	display:none;
+	z-index:50;
+}
+.nav .yingyang1 ol{
+	height:60px;
+	border-bottom:1px dotted #000;
+	padding-top:16px;
+}
+.nav .yingyang1 ol h4 a{
+	color:#333;
+	font-size:14px;
+}
+.nav .yingyang1 ol h4{
+	margin-bottom:10px;
+}
+.nav .yingyang1 ol li a{
+	color:#333;
+	font-size:14px;
+	padding:0 8px;
+	border-right:1px solid #ccc;
+}
+.nav .yingyang1 ol li.no_left a{
+	padding-left:0;
+}
+.nav .shipin1{
+	height:393px;
+	width:650px;
+	background: rgba(255,255,255,.95);
+	position:absolute;
+	left:190px;
+	top:42px;
+	padding:0 20px;
+	display:none;
+	z-index:50;
+}
+.nav .shipin1 ol{
+	height:60px;
+	border-bottom:1px dotted #000;
+	padding-top:16px;
+}
+.nav .shipin1 ol h4 a{
+	color:#333;
+	font-size:14px;
+}
+.nav .shipin1 ol h4{
+	margin-bottom:10px;
+}
+.nav .shipin1 ol li a{
+	color:#333;
+	font-size:14px;
+	padding:0 8px;
+	border-right:1px solid #ccc;
+}
+.nav .shipin1 ol li.no_left a{
+	padding-left:0;
+}
+.nav .jiaju1{
+	height:393px;
+	width:650px;
+	background: rgba(255,255,255,.95);
+	position:absolute;
+	left:190px;
+	top:42px;
+	padding:0 20px;
+	display:none;
+	z-index:50;
+}
+.nav .jiaju1 ol{
+	height:60px;
+	border-bottom:1px dotted #000;
+	padding-top:16px;
+}
+.nav .jiaju1 ol h4 a{
+	color:#333;
+	font-size:14px;
+}
+.nav .jiaju1 ol h4{
+	margin-bottom:10px;
+}
+.nav .jiaju1 ol li a{
+	color:#333;
+	font-size:14px;
+	padding:0 8px;
+	border-right:1px solid #ccc;
+}
+.nav .jiaju1 ol li.no_left a{
+	padding-left:0;
+}
+.nav .zhongbiao1{
+	height:241px;
+	width:650px;
+	background: rgba(255,255,255,.95);
+	position:absolute;
+	left:190px;
+	top:156px;
+	padding:0 20px;
+	display:none;
+	z-index:50;
+}
+.nav .zhongbiao1 ol{
+	height:60px;
+	border-bottom:1px dotted #000;
+	padding-top:16px;
+}
+.nav .zhongbiao1 ol h4 a{
+	color:#333;
+	font-size:14px;
+}
+.nav .zhongbiao1 ol h4{
+	margin-bottom:10px;
+}
+.nav .zhongbiao1 ol li a{
+	color:#333;
+	font-size:14px;
+	padding:0 8px;
+	border-right:1px solid #ccc;
+}
+.nav .zhongbiao1 ol li.no_left a{
+	padding-left:0;
+}
+.nav .shuma1{
+	height:105px;
+	width:650px;
+	background: rgba(255,255,255,.95);
+	position:absolute;
+	left:190px;
+	top:282px;
+	padding:0 20px;
+	display:none;
+	z-index:50;
+}
+.nav .shuma1 ol{
+	height:60px;
+	border-bottom:1px dotted #000;
+	padding-top:16px;
+}
+.nav .shuma1 ol h4 a{
+	color:#333;
+	font-size:14px;
+}
+.nav .shuma1 ol h4{
+	margin-bottom:10px;
+}
+.nav .shuma1 ol li a{
+	color:#333;
+	font-size:14px;
+	padding:0 8px;
+	border-right:1px solid #ccc;
+}
+.nav .shuma1 ol li.no_left a{
+	padding-left:0;
+}
+/*------------------注册成功-------------------------------*/
+/*p{
+	line-height:2em;
+	font-size:14px;
+	color:#555;
+}*/
+/*.register_suss{
+	width:100%;
+	height:556px;
+	background:#f5f5f5;
+}
+.successful{
+	width:1200px;
+	height:271px;
+	margin:0 auto;
+	padding:1.5% 2% 2% 2%;
+	color:#555;
+	border-bottom:1px solid #ddd;
+}
+.successful h3{
+	font-size:1.4em;
+	line-height:2.6em;
+	border-bottom:2px solid #999;
+}
+.success_msg{
+	padding:3% 0 3% 22%;
+	font-size:1.2em;
+}
+.success_msg s.duihao{
+	display:block;
+	width:54px;
+	height:54px;
+	background:url(../img/login.png) no-repeat -168px 0;
+}*/
+
+
+
+
+
